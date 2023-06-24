@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hearder">
+      <h1>Weather Finder App</h1>
+    </div>
+    <!-- Content Section -->
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter city name</h3>
+        <input
+          type="search"
+          placeholder="E.g., Pakistan, USA,Lahore, London..."
+          autofocus
+          class="city-Input"
+        />
+        <button class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Use Current Location</button>
+      </div>
+
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="detail">
+            <h2>_______ (_______)</h2>
+            <h4>Temp: _____ <sup>o</sup>C</h4>
+            <h4>Wind: _____ M/S</h4>
+            <h4>Humidity: _____ %</h4>
+          </div>
+          <!-- <div class="icons">
+            <img src="images/clear.png" alt="weather-icon" />
+            <h5>Moderate Clear</h5>
+          </div> -->
+        </div>
+
+        <div class="days-forecast">
+          <h2>4-Days Forecast</h2>
+          <div class="weather-cards">
+            <li class="card">
+              <h2>( ________ )</h2>
+              <img src="images/clouds.png" alt="" />
+              <h4>Temp: _____ <sup>o</sup>C</h4>
+              <h4>Wind: _____ M/S</h4>
+              <h4>Humidity: _____ %</h4>
+            </li>
+            <li class="card">
+              <h2>( ________ )</h2>
+              <img src="images/clouds.png" alt="" />
+              <h4>Temp: _____ <sup>o</sup>C</h4>
+              <h4>Wind: _____ M/S</h4>
+              <h4>Humidity: _____ %</h4>
+            </li>
+            <li class="card">
+              <h2>( ________ )</h2>
+              <img src="images/clouds.png" alt="" />
+              <h4>Temp: _____ <sup>o</sup>C</h4>
+              <h4>Wind: _____ M/S</h4>
+              <h4>Humidity: _____ %</h4>
+            </li>
+            <li class="card">
+              <h2>( ________ )</h2>
+              <img src="images/clouds.png" alt="" />
+              <h4>Temp: _____ <sup>o</sup>C</h4>
+              <h4>Wind: _____ M/S</h4>
+              <h4>Humidity: _____ %</h4>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <h3>Create by CodingDepal &copy; | All right reserved &reg;</h3>
+    </div>
+
+    <!-- Link TO JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
